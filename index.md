@@ -12,7 +12,7 @@
 
   - Binary classification
     - Predicts which passengers survived the Titanic shipwreck.
-    - :ref:`credit_card_fraud`
+    - xx :ref:`credit_card_fraud`
   - Multiclass classification
     - Predict kids gameplay performance (time series)
     -
