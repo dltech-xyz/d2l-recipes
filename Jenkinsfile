@@ -30,7 +30,9 @@ stage("Build and Publish") {
       sh label: "Execute Notebooks", script: """set -ex
       conda activate ${ENV_NAME}
       export CUDA_VISIBLE_DEVICES=${CUDA_VISIBLE_DEVICES}
+      ./static/cache.sh restore _build/eval/tabular/input
       d2lbook build eval
+      ./static/cache.sh store _build/eval/tabular/input
       """
 
       sh label:"Build HTML", script:"""set -ex

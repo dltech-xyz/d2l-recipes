@@ -17,7 +17,7 @@
     - Predict kids gameplay performance (time series)
     -
 
-  ​
+
 
 
 
@@ -25,3 +25,10 @@
 
 - Audio
 
+
+```toc
+:maxdepth: 2
+:numbered:
+
+tabular/index
+```

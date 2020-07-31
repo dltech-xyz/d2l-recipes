@@ -1,3 +1,5 @@
 _build/
-/input/
+**/input/
+**/AutogluonModels/
+**/.ipynb_checkpoints/
 .DS_Store
