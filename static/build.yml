@@ -2,5 +2,6 @@ dependencies:
   - python=3.7
   - pip
   - pip:
+    - git+https://github.com/d2l-ai/d2l-book
     - mxnet-cu101==1.6.0
     - autogluon
