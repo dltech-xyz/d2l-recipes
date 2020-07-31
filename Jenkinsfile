@@ -37,6 +37,7 @@ stage("Build and Publish") {
 
       sh label:"Build HTML", script:"""set -ex
       conda activate ${ENV_NAME}
+      rm -f _build/html
       d2lbook build html
       """
 
